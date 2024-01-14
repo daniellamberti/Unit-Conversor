@@ -1,0 +1,119 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: black;
+    font-size: 16px;
+}
+
+#container-main {
+    width: 586px;
+    height: 1014px;
+    background-color:black;
+}
+
+
+#container-header {
+    display: block;
+    margin: auto;
+    margin-top: 2%;
+    width: 550px;
+    height: 310px;
+    background-color: #6943FF;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+#unit-number {
+    display: block;
+    margin: auto;
+    margin-top: 7%;
+    margin-bottom: 6%;
+    width: 117px;
+    height: 83px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 24.393px; /* 42.057% */
+    border: 1px solid white;
+    background-color: #6943FF;
+    border-radius: 4px;
+}
+
+::placeholder {
+    color: white;
+}
+
+#convert-btn {
+    width: 117px;
+    height: 42px;
+    border-radius: 5px;
+    background: #FFF;
+    padding: 9px;
+}
+
+#container-units {
+    display: block;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 50px;
+    width: 552px;
+    height: 400px;  
+    background-color: #1F2937;
+    color: white;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+
+h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 38px; /* 135.714% */
+    letter-spacing: -0.84px;
+}
+
+h2 {
+    color: #CCC1FF;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 100% */
+    padding-top: 25px;
+}
+
+p {
+    color: #FFF;
+    text-align: center;
+    /* text-sm/leading-5/font-normal */
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+}
+
+#length-div, #volume-div, #mass-div {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    width: 500px;
+    height: 108.573px;
+    background-color: #273549;
+    border-radius: 4.681px 0px 0px 0px;
+}
+
+
