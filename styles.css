@@ -4,7 +4,6 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0;
-    padding: 0;
     text-align: center;
     background-color: black;
     font-size: 16px;
@@ -12,7 +11,7 @@ body {
 
 #container-main {
     width: 586px;
-    height: 1014px;
+    height: 960px;
     background-color:black;
 }
 
@@ -22,23 +21,23 @@ body {
     margin: auto;
     margin-top: 2%;
     width: 550px;
-    height: 310px;
+    height: 260px;
     background-color: #6943FF;
-    padding: 12px;
+    padding: 2px;
     box-sizing: border-box;
 }
 
 #unit-number {
     display: block;
     margin: auto;
-    margin-top: 7%;
-    margin-bottom: 6%;
+    margin-top: 4%;
+    margin-bottom: 4%;
     width: 117px;
     height: 83px;
     color: #FFF;
     text-align: center;
     font-family: Inter, sans-serif;
-    font-size: 58px;
+    font-size: 52px;
     font-style: normal;
     font-weight: 800;
     line-height: 24.393px; /* 42.057% */
@@ -56,7 +55,7 @@ body {
     height: 42px;
     border-radius: 5px;
     background: #FFF;
-    padding: 9px;
+    padding: 5px;
 }
 
 #container-units {
@@ -65,10 +64,10 @@ body {
     margin-top: 0;
     margin-bottom: 50px;
     width: 552px;
-    height: 400px;  
+    height: 326px;  
     background-color: #1F2937;
     color: white;
-    padding: 6px;
+    padding: 2px;
     box-sizing: border-box;
 }
 
@@ -77,22 +76,23 @@ h1 {
     color: #FFF;
     text-align: center;
     font-family: Inter, sans-serif;
-    font-size: 28px;
+    font-size: 26px;
     font-style: normal;
     font-weight: 800;
     line-height: 38px; /* 135.714% */
     letter-spacing: -0.84px;
+    margin-top: 26px;
 }
 
 h2 {
     color: #CCC1FF;
     text-align: center;
     font-family: Inter, sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 600;
     line-height: 20px; /* 100% */
-    padding-top: 25px;
+    padding-top: 18px;
 }
 
 p {
@@ -100,7 +100,7 @@ p {
     text-align: center;
     /* text-sm/leading-5/font-normal */
     font-family: Inter, sans-serif;
-    font-size: 14px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 400;
     line-height: 20px; /* 142.857% */
@@ -111,7 +111,7 @@ p {
     margin: auto;
     margin-top: 10px;
     width: 500px;
-    height: 108.573px;
+    height: 88px;
     background-color: #273549;
     border-radius: 4.681px 0px 0px 0px;
 }
